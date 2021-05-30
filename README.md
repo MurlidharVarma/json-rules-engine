@@ -16,19 +16,19 @@ Pass a Rule and Data to engine and provide synchronous response on whether the D
 1. Rules JSON must be an object
 1. Must start with AND or OR which takes array of rule
     1.  Single Rule Criteria
-    ```json
+    ```
     {
         AND: [ Criteria1 ]
     }
     ```
     2. Multiple Rule Criteria --> Criteria 1 and 2 must be satisfied
-    ```json
+    ```
     {
         AND: [ Criteria1, Criteria2 .. ]
     }
     ```
     3. Multiple Levels of Rules --> Criteria 1 & 2 must be satisfied and either Criteria3 or Criteria4 must be satisfied
-    ```json
+    ```
     {
         AND: [
                 {
